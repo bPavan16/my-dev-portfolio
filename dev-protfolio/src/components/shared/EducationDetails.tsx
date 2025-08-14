@@ -16,7 +16,7 @@ import {
 export default function EducationalTimeline() {
   const data = [
     {
-      key: Math.random() * 10000,
+  key: 2,
       title: "2022 - 2026",
       content: (
         <div className="space-y-1">
@@ -94,7 +94,8 @@ export default function EducationalTimeline() {
       key: Math.random() * 10000,
       title: "2020 - 2022",
       content: (
-        <div className="space-y-1">
+
+        <div className="space-y-1 q ">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-600 to-orange-600 rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative bg-white dark:bg-gray-900 p-4 sm:p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg">
