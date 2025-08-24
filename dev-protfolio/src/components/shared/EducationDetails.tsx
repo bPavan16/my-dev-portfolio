@@ -16,12 +16,12 @@ import {
 export default function EducationalTimeline() {
   const data = [
     {
-  key: 2,
+  key: 1,
       title: "2022 - 2026",
       content: (
-        <div className="space-y-1">
+        <div className="space-y-3">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+            <div className="absolute -inset-0.5 rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative bg-white dark:bg-gray-900 p-4 sm:p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg">
               {/* Header */}
               <div className="flex items-start gap-3 mb-4">
@@ -41,7 +41,7 @@ export default function EducationalTimeline() {
                       Current
                     </span>
                     <span className="inline-flex items-center gap-1 px-2 py-1 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs font-medium rounded-md">
-                      <MapPin className="h-3 w-3" />5 Semesters
+                      <MapPin className="h-3 w-3" />6 Semesters
                     </span>
                   </div>
                 </div>
@@ -91,13 +91,13 @@ export default function EducationalTimeline() {
       ),
     },
     {
-      key: Math.random() * 10000,
+      key: 2,
       title: "2020 - 2022",
       content: (
 
-        <div className="space-y-1 q ">
+        <div className="space-y-1">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-600 to-orange-600 rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r  rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative bg-white dark:bg-gray-900 p-4 sm:p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg">
               {/* Header */}
               <div className="flex items-start gap-3 mb-4">
@@ -175,12 +175,12 @@ export default function EducationalTimeline() {
       ),
     },
     {
-      key: Math.random() * 10000,
+      key: 3,
       title: "2011 - 2020",
       content: (
-        <div className="space-y-1">
+        <div className="space-y-2">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-rose-600 to-pink-600 rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative bg-white dark:bg-gray-900 p-4 sm:p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg">
               {/* Header */}
               <div className="flex items-start gap-3 mb-4">

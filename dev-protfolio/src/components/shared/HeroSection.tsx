@@ -129,7 +129,7 @@ export function HeroSection() {
                 <div className="flex gap-2 sm:gap-3">
                   {socialLinks.map((social, index) => (
                     <motion.a
-                      key={social.label}
+                      key={(social.label ?? "social") + Math.random() * 100}
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"

@@ -65,7 +65,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
 
         <motion.div
-          key={Math.random() * 10000}
+          key={item.title + index}
           initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: index * 0.1 }}

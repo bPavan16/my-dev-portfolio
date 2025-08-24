@@ -85,7 +85,7 @@ export function MyNavbar({ children }: { children: React.ReactNode }) {
         <div className="relative w-full">
             <Navbar className=""> 
                 {/* Desktop Navigation */}
-                <NavBody className="bg-white dark:bg-black z-10">
+                <NavBody className="bg-white opacity-83 dark:bg-black z-10">
                     <CustomLogo />
                     <NavItems items={navItems} />
                     
@@ -102,7 +102,7 @@ export function MyNavbar({ children }: { children: React.ReactNode }) {
 
                 {/* Mobile Navigation */}
                 <MobileNav className="bg-white dark:bg-black z-[10000]">
-                    <MobileNavHeader className="px-2">
+                    <MobileNavHeader className="px-3 ">
                         <CustomLogo />
                         <MobileNavToggle
                             isOpen={isMobileMenuOpen}

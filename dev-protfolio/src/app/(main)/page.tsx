@@ -1,5 +1,5 @@
 import EducationalTimeline from '@/components/shared/EducationDetails'
-import { HeroSection } from '@/components/shared/Hero'
+import { HeroSection } from '@/components/shared/HeroSection'
 import React from 'react'
 
 const HomePage = () => (
@@ -7,8 +7,8 @@ const HomePage = () => (
     <div>
       <HeroSection />
     </div>
-    <div className="flex flex-col items-end justify-end">
-      <EducationalTimeline />
+    <div id='about' className="flex flex-col items-end justify-end">
+      <EducationalTimeline  />
     </div>
   </main>
 )
