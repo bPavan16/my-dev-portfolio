@@ -9,7 +9,6 @@ const HomePage = () => (
       <HeroSection />
     </div>
     <div id='skills' className="">
-      <SkillsSection />
     </div>
     <div id='projects' className="">
       <ProjectsSection />
