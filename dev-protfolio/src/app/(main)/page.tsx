@@ -4,7 +4,7 @@ import SkillsSection from '@/sections/SkillsSection'
 import React from 'react'
 
 const HomePage = () => (
-  <main className="min-h-screen min-w-screen">
+  <main className="min-h-screen min-w-screen overflow-x-hidden">
     <div>
       <HeroSection />
     </div>
