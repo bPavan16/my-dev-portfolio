@@ -8,6 +8,8 @@ const HomePage = () => (
       <HeroSection />
     </div>
     <div id='skills' className="">
+
+      
     </div>
     <div id='projects' className="">
       <ProjectsSection />
