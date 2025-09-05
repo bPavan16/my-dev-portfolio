@@ -1,6 +1,5 @@
 import { HeroSection } from '@/sections/HeroSection'
 import ProjectsSection from '@/sections/ProjectsSection'
-import SkillsSection from '@/sections/SkillsSection'
 import React from 'react'
 
 const HomePage = () => (
