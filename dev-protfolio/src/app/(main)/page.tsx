@@ -3,7 +3,7 @@ import ProjectsSection from '@/sections/ProjectsSection'
 import React from 'react'
 
 const HomePage = () => (
-  <main className="min-h-screen min-w-screen overflow-x-hidden">
+  <main className="min-h-screen overflow-x-hidden">
     <div>
       <HeroSection />
     </div>
