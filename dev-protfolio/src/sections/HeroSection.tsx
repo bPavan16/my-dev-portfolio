@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Highlight } from "../ui/hero-highlight";
+import { Highlight } from "../components/ui/hero-highlight";
 import {
   Github,
   Linkedin,

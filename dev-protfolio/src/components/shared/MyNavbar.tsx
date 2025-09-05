@@ -76,19 +76,19 @@ export function MyNavbar({ children }: { children: React.ReactNode }) {
             name: "Experience",
             link: "#experience",
         },
-      
+
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
         <div className="relative w-full">
-            <Navbar className=""> 
+            <Navbar className="">
                 {/* Desktop Navigation */}
                 <NavBody className="bg-white opacity-83 dark:bg-black z-10">
                     <CustomLogo />
                     <NavItems items={navItems} />
-                    
+
                     <div className="flex items-center gap-2">
                         <ThemeToggle />
                         <NavbarButton variant="secondary">

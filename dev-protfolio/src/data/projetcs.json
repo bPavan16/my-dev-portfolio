@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Developer Portfolio",
+    "short-description": "A modern, responsive developer portfolio built with Next.js and TypeScript.",
+    "detailed-description": "A comprehensive developer portfolio website featuring an animated hero section, theme switching, project showcase, skills timeline, and responsive design. Built with modern web technologies including Next.js, TypeScript, Tailwind CSS, and Shadcn UI components. The portfolio includes a beautiful landing page with profile photo, social media integration, project filtering system, and elegant animations powered by Framer Motion. Optimized for both light and dark themes with seamless theme switching.",
+    "images": [
+      "https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/dev-portfolio",
+    "deploy-link": "https://pavan-portfolio.vercel.app",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Aceternity UI",
+      "Framer Motion"
+    ],
+    "date": ["2024", "2025"],
+    "tag": "Full-Stack Web Development",
+    "status": "Completed",
+    "readme-link": ""
+  },
+  {
+    "title": "AlgoVisualizer",
+    "short-description": "Interactive visualizations to understand algorithms through animation.",
+    "detailed-description": "AlgoVisualizer is an interactive web application designed to help users learn and understand various algorithms through visual representations. By animating algorithm execution step-by-step, it transforms abstract concepts into tangible visual patterns, making learning more intuitive and engaging. The application focuses primarily on sorting algorithms and includes other algorithm visualizations like Sudoku solving using backtracking. Each visualization is accompanied by detailed explanations, time and space complexity analysis, and code implementations in multiple programming languages.",
+    "images": [
+      "https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/AlgoVisualizer",
+    "deploy-link": "https://algovisualizer.vercel.app",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+      "Framer Motion",
+      "Context API"
+    ],
+    "date": ["2024"],
+    "tag": "Frontend Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/AlgoVisualizer/blob/main/README.md"
+  },
+
+  {
+    "title": "QuizRoom – Real-Time Quiz App",
+    "short-description": "A modern, real-time quiz application with live rooms, leaderboards, and an admin panel.",
+    "detailed-description": "QuizRoom is a real-time quiz platform where users can join quiz rooms, answer questions live, and see real-time leaderboards. Built with a TypeScript/Node.js backend and a beautiful React + Tailwind CSS frontend using shadcn/ui components, it offers a seamless experience for both participants and admins. Admins can create and control quizzes, manage questions, and monitor live results. Features include live question display with timers, multiple choice questions, real-time answer submission, and robust connection status indicators.",
+    "images": [
+      "/images/quizroom-home.png",
+      "/images/quizroom-admin.png",
+      "/images/quizroom-leaderboard.png"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/quizroom",
+    "deploy-link": "",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "Socket.IO",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    "date": ["2024"],
+    "tag": "Full-Stack Web Development",
+    "status": "Completed"
+  },
+  {
+  "title": "LeetHelper – Your AI-Powered LeetCode Companion",
+  "short-description": "A modern Chrome extension that brings AI-powered insights, explanations, and solutions to your LeetCode practice.",
+  "detailed-description": "LeetHelper is a Chrome extension designed to supercharge your LeetCode journey with intelligent AI assistance. Instantly get question explanations, optimized solutions, progressive hints, and detailed code analysis right in your browser. Features include multi-language solutions, code quality feedback, step-by-step dry runs, and a beautiful, responsive UI. Built for both beginners and advanced coders, LeetHelper helps you learn, solve, and improve faster.",
+  "images": [
+    "/images/leethelper-dashboard.png",
+    "/images/leethelper-explanation.png",
+    "/images/leethelper-solution.png"
+  ],
+  "contributors": [
+  ],
+  "code-link": "https://github.com/bPavan16/leethelper-chrome",
+  "deploy-link": "",
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Google Gemini API"
+  ],
+  "date": ["Jan-Feb 2025"],
+  "tag": "Chrome Extension",
+  "status": "Completed",
+  "readme-link": "https://github.com/bPavan16/leethelper-chrome/blob/main/README.md"
+},
+{
+  "title": "ArithMentor – Interactive Math Practice Platform",
+  "short-description": "A web app to master multiplication tables, squares, cubes, and mental arithmetic through interactive practice.",
+  "detailed-description": "ArithMentor is an interactive web application designed to help users improve their mathematical skills through engaging exercises and practice sessions. It features interactive multiplication tables (1-100), a comprehensive reference for squares and cubes, and customizable mental arithmetic challenges. The platform is mobile-responsive, visually clean, and offers timed challenges to sharpen speed and accuracy. Built for learners of all ages, ArithMentor makes math practice accessible and enjoyable.",
+  "images": [
+    "/images/arithmentor-home.png",
+    "/images/arithmentor-tables.png",
+    "/images/arithmentor-practice.png"
+  ],
+  "contributors": [
+    
+  ],
+  "code-link": "https://github.com/bPavan16/arithmentor",
+  "deploy-link": "https://bpavan16.github.io/arithmentor/",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript" ],
+  "date": ["2024"],
+  "tag": "Frontend Web Development",
+  "status": "Completed",
+  "readme-link": "https://github.com/bPavan16/arithmentor/blob/main/README.md"
+}
+]

@@ -1,14 +1,14 @@
-import EducationalTimeline from '@/components/shared/EducationDetails'
-import { HeroSection } from '@/components/shared/HeroSection'
+import { HeroSection } from '@/sections/HeroSection'
+import ProjectsSection from '@/sections/ProjectsSection'
 import React from 'react'
 
 const HomePage = () => (
-  <main className="min-h-screen">
+  <main className="min-h-screen min-w-screen">
     <div>
       <HeroSection />
     </div>
-    <div id='about' className="flex flex-col items-end justify-end">
-      <EducationalTimeline  />
+    <div id='projects' className="">
+      <ProjectsSection />
     </div>
   </main>
 )
