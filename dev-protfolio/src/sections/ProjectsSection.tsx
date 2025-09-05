@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ProjectCard } from '@/components/shared/project-card';
+import { ProjectCard } from '@/components/shared/ProjectCard';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import {
@@ -147,7 +147,13 @@ const ProjectsSection = () => {
               variants={itemVariants}
               className={viewMode === 'list' ? " flex flex-col justify-between items-center w-full" : ""}
             >
-              <ProjectCard project={project} index={index} />
+              <ProjectCard
+                project={{
+                  ...project,
+                  ["readme-link"]: project["readme-link"] ?? ""
+                }}
+                index={index}
+              />
             </motion.div>
           ))}
         </motion.div>
