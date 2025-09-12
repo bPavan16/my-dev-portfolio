@@ -153,7 +153,8 @@ const ProjectsSection = () => {
               <ProjectCard
                 project={{
                   ...project,
-                  ["readme-link"]: project["readme-link"] ?? ""
+                  ["readme-link"]: project["readme-link"] ?? "",
+                  images: project.images ?? []
                 }}
                 index={index}
               />
