@@ -52,23 +52,41 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
   const getStatusColor = (status: string) => {
     switch (status.toLowerCase()) {
       case "completed":
-        return "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400";
+        return "bg-green-300 text-green-900";
       case "in progress":
-        return "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400";
+        return "bg-blue-300 text-blue-900";
       default:
-        return "bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-400";
+        return "bg-gray-300 text-gray-900";
     }
   };
 
   const getTagColor = () => {
     const colors = [
-       "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-400",
-      "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400",
-      "bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-400",
-      "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400",
+      "bg-purple-100 text-purple-900",
+      "bg-orange-100 text-orange-900",
+      "bg-pink-100 text-pink-900",
+      "bg-cyan-100 text-cyan-900",
     ];
     return colors[index % colors.length];
   };
+
+  // Helper to get GitHub Open Graph image if no image is present
+  const getGithubPreviewImage = () => {
+    try {
+      const url = new URL(project["code-link"]);
+      const parts = url.pathname.split("/").filter(Boolean);
+      if (url.hostname === "github.com" && parts.length >= 2) {
+        const [username, repo] = parts;
+        return `https://opengraph.githubassets.com/1/${username}/${repo}`;
+      }
+    } catch {
+      // ignore
+    }
+    return null;
+  };
+
+  const hasImage = project.images && project.images[0];
+  const githubPreview = getGithubPreviewImage();
 
   return (
     <motion.div
@@ -81,14 +99,23 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       <Card className="group h-full flex flex-col  max-w-2xl overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 relative pt-0">
         <div className="relative z-10 flex flex-col h-full">
           {/* Project Image */}
-          <div className="relative overflow-hidden pb-3 pt-0 mt-0 rounded-t-lg">
-            {!imageError ? (
+          <div className="relative overflow-hidden pb-3 pt-0 mt-0 rounded-t-lg w-full h-48">
+            {!imageError && hasImage ? (
               <Image
-                src={"https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png"}
+                src={project.images[0]}
                 alt={project.title}
                 width={800}
-                height={600}
-                className="w-full h-68 object-cover group-hover:scale-102 transition-transform duration-300 pt-0"
+                height={484}
+                className="w-full h-52 object-cover transition-transform duration-300 pt-0"
+                onError={() => setImageError(true)}
+              />
+            ) : githubPreview ? (
+              <Image
+                src={githubPreview}
+                alt={project.title + " GitHub preview"}
+                width={800}
+                height={484}
+                className="w-full h-52 object-cover bg-gray-100 dark:bg-gray-800"
                 onError={() => setImageError(true)}
               />
             ) : (
@@ -113,7 +140,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             </div>
           </div>
 
-          <CardHeader className="pb-3">
+          <CardHeader className="pb-3 pt-3">
             <div className="flex items-start justify-between">
               <div className="flex-1">
                 <CardTitle className="text-xl font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">

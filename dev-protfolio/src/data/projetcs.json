@@ -4,7 +4,7 @@
     "short-description": "A modern, responsive developer portfolio built with Next.js and TypeScript.",
     "detailed-description": "A comprehensive developer portfolio website featuring an animated hero section, theme switching, project showcase, skills timeline, and responsive design. Built with modern web technologies including Next.js, TypeScript, Tailwind CSS, and Shadcn UI components. The portfolio includes a beautiful landing page with profile photo, social media integration, project filtering system, and elegant animations powered by Framer Motion. Optimized for both light and dark themes with seamless theme switching.",
     "images": [
-      "https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png"
+      ""
     ],
     "contributors": [],
     "code-link": "https://github.com/bPavan16/dev-portfolio",
@@ -18,7 +18,7 @@
       "Framer Motion"
     ],
     "date": ["2024", "2025"],
-    "tag": "Full-Stack Web Development",
+    "tag": "Frontend Web Development",
     "status": "Completed",
     "readme-link": ""
   },
@@ -27,7 +27,7 @@
     "short-description": "Interactive visualizations to understand algorithms through animation.",
     "detailed-description": "AlgoVisualizer is an interactive web application designed to help users learn and understand various algorithms through visual representations. By animating algorithm execution step-by-step, it transforms abstract concepts into tangible visual patterns, making learning more intuitive and engaging. The application focuses primarily on sorting algorithms and includes other algorithm visualizations like Sudoku solving using backtracking. Each visualization is accompanied by detailed explanations, time and space complexity analysis, and code implementations in multiple programming languages.",
     "images": [
-      "https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png"
+      "https://github.com/bPavan16/AlgoVisualizer/blob/main/images/image-(4).png?raw=true"
     ],
     "contributors": [],
     "code-link": "https://github.com/bPavan16/AlgoVisualizer",
@@ -76,9 +76,7 @@
   "short-description": "A modern Chrome extension that brings AI-powered insights, explanations, and solutions to your LeetCode practice.",
   "detailed-description": "LeetHelper is a Chrome extension designed to supercharge your LeetCode journey with intelligent AI assistance. Instantly get question explanations, optimized solutions, progressive hints, and detailed code analysis right in your browser. Features include multi-language solutions, code quality feedback, step-by-step dry runs, and a beautiful, responsive UI. Built for both beginners and advanced coders, LeetHelper helps you learn, solve, and improve faster.",
   "images": [
-    "/images/leethelper-dashboard.png",
-    "/images/leethelper-explanation.png",
-    "/images/leethelper-solution.png"
+    ""
   ],
   "contributors": [
   ],

@@ -1,5 +1,6 @@
-import { HeroSection } from '@/sections/HeroSection'
-import ProjectsSection from '@/sections/ProjectsSection'
+import AboutSection from '@/components/sections/AboutSection'
+import { HeroSection } from '@/components/sections/HeroSection'
+import ProjectsSection from '@/components/sections/ProjectsSection'
 import React from 'react'
 
 const HomePage = () => (
@@ -7,7 +8,14 @@ const HomePage = () => (
     <div>
       <HeroSection />
     </div>
+
+    <div id='about' className="">
+      <AboutSection />
+    </div>
+
+
     <div id='skills' className="">
+      
 
       
     </div>
