@@ -5,7 +5,7 @@
     "detailed-description": "A comprehensive developer portfolio website featuring an animated hero section, theme switching, project showcase, skills timeline, and responsive design. Built with modern web technologies including Next.js, TypeScript, Tailwind CSS, and Shadcn UI components. The portfolio includes a beautiful landing page with profile photo, social media integration, project filtering system, and elegant animations powered by Framer Motion. Optimized for both light and dark themes with seamless theme switching.",
     "images": [""],
     "contributors": [],
-    "code-link": "https://github.com/bPavan16/dev-portfolio",
+    "code-link": "https://github.com/bPavan16/my-dev-portfolio",
     "deploy-link": "https://pavan-portfolio.vercel.app",
     "technologies": [
       "Next.js",

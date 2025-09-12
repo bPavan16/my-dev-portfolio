@@ -52,17 +52,17 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-950 dark:via-gray-900 dark:to-slate-950">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-950 dark:via-gray-900 dark:to-slate-950 z-10">
 
-              <div className="absolute inset-0 z-1 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+      <div className="absolute inset-0 z-1 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto z-10">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-16 z-10"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium mb-4">
             <Code className="w-4 h-4" />
@@ -113,7 +113,7 @@ const ProjectsSection = () => {
           </div>
 
           {/* View Mode Toggle */}
-          <div className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
+          <div className="flex items-center z-10 gap-2 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
             <Button
               variant={viewMode === 'grid' ? 'default' : 'ghost'}
               size="sm"
@@ -140,15 +140,15 @@ const ProjectsSection = () => {
           animate="visible"
           className={
             viewMode === 'grid'
-              ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-              : "flex flex-col gap-6"
+              ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 z-10"
+              : "flex flex-col gap-6 z-10"
           }
         >
           {filteredProjects.map((project, index) => (
             <motion.div
               key={`${project.title}-${index}`}
               variants={itemVariants}
-              className={viewMode === 'list' ? " flex flex-col justify-between items-center w-full" : ""}
+              className={viewMode === 'list' ? " flex flex-col justify-between items-center w-full z-10" : "z-10"}
             >
               <ProjectCard
                 project={{
@@ -167,7 +167,7 @@ const ProjectsSection = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-center py-16"
+            className="text-center py-16 z-10"
           >
             <div className="text-gray-400 dark:text-gray-500 mb-4">
               <Code className="w-16 h-16 mx-auto mb-4 opacity-50" />
@@ -189,7 +189,7 @@ const ProjectsSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="text-center mt-16 p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 rounded-2xl border border-blue-200 dark:border-blue-800"
+          className="text-center mt-16 p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 rounded-2xl border border-blue-200 dark:border-blue-800 z-10"
         >
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Interested in working together?
