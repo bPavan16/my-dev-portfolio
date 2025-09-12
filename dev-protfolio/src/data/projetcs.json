@@ -3,9 +3,7 @@
     "title": "Developer Portfolio",
     "short-description": "A modern, responsive developer portfolio built with Next.js and TypeScript.",
     "detailed-description": "A comprehensive developer portfolio website featuring an animated hero section, theme switching, project showcase, skills timeline, and responsive design. Built with modern web technologies including Next.js, TypeScript, Tailwind CSS, and Shadcn UI components. The portfolio includes a beautiful landing page with profile photo, social media integration, project filtering system, and elegant animations powered by Framer Motion. Optimized for both light and dark themes with seamless theme switching.",
-    "images": [
-      ""
-    ],
+    "images": [""],
     "contributors": [],
     "code-link": "https://github.com/bPavan16/dev-portfolio",
     "deploy-link": "https://pavan-portfolio.vercel.app",
@@ -72,49 +70,265 @@
     "status": "Completed"
   },
   {
-  "title": "LeetHelper – Your AI-Powered LeetCode Companion",
-  "short-description": "A modern Chrome extension that brings AI-powered insights, explanations, and solutions to your LeetCode practice.",
-  "detailed-description": "LeetHelper is a Chrome extension designed to supercharge your LeetCode journey with intelligent AI assistance. Instantly get question explanations, optimized solutions, progressive hints, and detailed code analysis right in your browser. Features include multi-language solutions, code quality feedback, step-by-step dry runs, and a beautiful, responsive UI. Built for both beginners and advanced coders, LeetHelper helps you learn, solve, and improve faster.",
-  "images": [
-    ""
-  ],
+    "title": "LeetHelper – Your AI-Powered LeetCode Companion",
+    "short-description": "A modern Chrome extension that brings AI-powered insights, explanations, and solutions to your LeetCode practice.",
+    "detailed-description": "LeetHelper is a Chrome extension designed to supercharge your LeetCode journey with intelligent AI assistance. Instantly get question explanations, optimized solutions, progressive hints, and detailed code analysis right in your browser. Features include multi-language solutions, code quality feedback, step-by-step dry runs, and a beautiful, responsive UI. Built for both beginners and advanced coders, LeetHelper helps you learn, solve, and improve faster.",
+    "images": [""],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/leethelper-chrome",
+    "deploy-link": "",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Google Gemini API"
+    ],
+    "date": ["Jan-Feb 2025"],
+    "tag": "Chrome Extension",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/leethelper-chrome/blob/main/README.md"
+  },
+  {
+    "title": "ArithMentor – Interactive Math Practice Platform",
+    "short-description": "A web app to master multiplication tables, squares, cubes, and mental arithmetic through interactive practice.",
+    "detailed-description": "ArithMentor is an interactive web application designed to help users improve their mathematical skills through engaging exercises and practice sessions. It features interactive multiplication tables (1-100), a comprehensive reference for squares and cubes, and customizable mental arithmetic challenges. The platform is mobile-responsive, visually clean, and offers timed challenges to sharpen speed and accuracy. Built for learners of all ages, ArithMentor makes math practice accessible and enjoyable.",
+    "images": [],
+    "contributors": [
+      {
+        "name": "Anirudh Hanchinamani",
+        "github": "https://github.com/a9irudhh"
+      }
+    ],
+    "code-link": "https://github.com/bPavan16/arithmentor",
+    "deploy-link": "https://bpavan16.github.io/arithmentor/",
+    "technologies": ["HTML5", "CSS3", "JavaScript"],
+    "date": ["2024"],
+    "tag": "Frontend Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/arithmentor/blob/main/README.md"
+  },
+  {
+    "title": "QA-Jotdowner ",
+    "short-description": "Its a Markdown Question Formatter with beautiful dark-themed GUI app for creating and formatting programming questions in Markdown.",
+    "detailed-description": "Markdown Question Formatter is a modern desktop application that helps instructors, programmers, and content creators easily generate well-structured programming questions in Markdown format. It features a sleek dark theme, split view interface, live Markdown preview, and smart formatting with emoji integration. The app supports C++ code formatting with syntax highlighting and allows users to save their work as Markdown files for easy sharing or publishing.",
+    "images": [
+      "https://private-user-images.githubusercontent.com/138222531/447163399-ec1b64d2-b09c-4659-b6a6-547b20c1f3c0.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3MDgzODQsIm5iZiI6MTc1NzcwODA4NCwicGF0aCI6Ii8xMzgyMjI1MzEvNDQ3MTYzMzk5LWVjMWI2NGQyLWIwOWMtNDY1OS1iNmE2LTU0N2IyMGMxZjNjMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxMlQyMDE0NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZWQzMTAzMjZiNWEyNzBiNWRkNjFkZTBjM2Y1MWU4ODE1YjcxOTY0MTcwMWM5ZTc0NjYyZDlhYjU4MTY2MjA5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Cw4n9H6D0JHlc3Xw8E87HgG--Q6eNHdVgYXccqVyl58"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/QA-Jotdowner",
+    "deploy-link": "",
+    "technologies": ["Python", "Tkinter", "TTK"],
+    "date": ["2024"],
+    "tag": "Python",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/QA-Jotdowner/blob/main/README.md"
+  },
+  {
+    "title": "Ping-Chat – Real-Time Messaging Platform",
+    "short-description": "A modern, feature-rich real-time messaging app inspired by WhatsApp.",
+    "detailed-description": "Ping-Chat is a real-time messaging application designed for instant, secure, and seamless communication. Built with a modern React frontend and Node.js backend, it features a clean UI, fast message delivery, and robust security. Users can chat instantly across devices, with a focus on speed, reliability, and user experience.",
+    "images": [],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/ping-chat",
+    "deploy-link": "",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Socket.IO",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "date": ["2024"],
+    "tag": "Full-Stack Web Development",
+    "status": "In Progress",
+    "readme-link": "https://github.com/bPavan16/ping-chat/blob/main/README.md"
+  },
+  {
+    "title": "PollChat – Real-Time Chat Application",
+    "short-description": "A real-time chat app with upvoting and priority messages, built with Node.js, TypeScript, WebSockets, and React.",
+    "detailed-description": "PollChat is a modern real-time chat application that lets users send messages, upvote them, and see priority chats based on upvotes. Built with a Node.js and TypeScript backend using WebSockets, and a React frontend styled with Tailwind CSS and shadcn/ui, PollChat offers room-based chats, instant communication, and a sleek, intuitive interface. Messages with the most upvotes are highlighted in a dedicated priority section, making it easy to focus on what's important.",
+    "images": [
+      "https://github.com/bPavan16/pollchat/blob/main/images/chatroom.png?raw=true"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/pollchat",
+    "deploy-link": "",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "WebSocket",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Vite"
+    ],
+    "date": ["2024"],
+    "tag": "Full-Stack Web Development",
+    "status": "In Progress",
+    "readme-link": "https://github.com/bPavan16/pollchat/blob/main/README.md"
+  },
+  {
+    "title": "Murphy – Podcast Generator",
+    "short-description": "Generate professional podcasts from ideas using AI-powered content creation and multi-language voice synthesis.",
+    "detailed-description": "Murphy is a modern web application that lets you create professional podcasts from simple ideas using Google's Gemini AI for content generation and MURF API for multi-language voice synthesis. Choose from multiple podcast themes, generate scripts with structured speaker assignments, and produce audio in 7 languages with a variety of voices. Manage your podcasts in a personal library, search and filter content, and enjoy a beautiful, responsive UI with dark/light mode. Built with Next.js, React, TypeScript, MongoDB, and TailwindCSS.",
+    "images": [
+      "/images/murphy-home.png",
+      "/images/murphy-generate.png",
+      "/images/murphy-podcast.png"
+    ],
+    "contributors": [
+      {
+        "name": "Samarth T",
+        "github": "https://github.com/Samarth-T17"
+      }
+    ],
+    "code-link": "https://github.com/Samarth-T17/murfy",
+    "deploy-link": "",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "TailwindCSS",
+      "NextAuth.js",
+      "Azure Blob Storage",
+      "Google Gemini AI",
+      "MURF API"
+    ],
+    "date": ["2025"],
+    "tag": "Full-Stack Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/Samarth-T17/murfy/blob/main/README.md"
+  },
+  {
+    "title": "CoWrite – Real-Time Collaborative Document Editor",
+    "short-description": "A modern real-time collaborative document editor with live chat, rich formatting, and advanced sharing.",
+    "detailed-description": "CoWrite is a feature-rich real-time collaborative document editor that enables multiple users to edit documents simultaneously with live cursors and built-in chat. It offers a modern UI with shadcn/ui components, rich text editing via Quill.js, advanced sharing and permission management, and secure authentication. The platform supports auto-saving, responsive design, and both light and dark themes. Built with React, TypeScript, Node.js, MongoDB, and Socket.io, CoWrite is perfect for teams and individuals seeking seamless collaboration.",
+    "images": [
+      "https://github.com/bPavan16/cowrite/blob/main/images/image3.jpg?raw=true"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/cowrite",
+    "deploy-link": "",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Quill.js",
+      "Socket.io",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "date": ["2025"],
+    "tag": "Full-Stack Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/cowrite/blob/main/README.md"
+  },
+  {
+    "title": "LyricWiz – Chrome Extension",
+    "short-description": "A beautiful Chrome extension that instantly fetches and displays lyrics for songs you're listening to online.",
+    "detailed-description": "LyricWiz is a Chrome extension that automatically detects songs from your browser's tab title and displays their lyrics in a beautifully animated, blue-themed interface. Using the Genius API, it fetches song details and displays formatted lyrics with smooth transitions, floating music notes, and direct links to Genius.com. Features include automatic song detection, API key management, and a modern, responsive popup UI.",
+    "images": [
+      "https://github.com/bPavan16/lyricwiz-chrome/raw/main/images/image(4).png?raw=true"
+    ],
+    "contributors": [
+      {
+        "name": "Anirudh Hanchinamani",
+        "github": "https://github.com/a9irudhh"
+      }
+    ],
+    "code-link": "https://github.com/bPavan16/lyricwiz-chrome",
+    "deploy-link": "",
+    "technologies": ["JavaScript", "HTML5", "CSS3", "Chrome Extension API"],
+    "date": ["2025"],
+    "tag": "Chrome Extension",
+    "status": "In Progress",
+    "readme-link": "https://github.com/bPavan16/lyricwiz-chrome/blob/main/README.md"
+  },
+  {
+    "title": "APS - Portfolio",
+    "short-description": "A comprehensive portfolio analyzing how Amazon leverages advanced algorithms and data structures to power its global e-commerce and cloud computing infrastructure.",
+    "detailed-description": "This project presents 19 detailed case studies examining the algorithmic foundations behind Amazon's operations, from string processing for Kindle search to distributed systems for AWS. Each case study demonstrates practical applications of computer science theory in real-world, large-scale systems. The portfolio includes interactive explanations, complexity analysis, business applications, and visual diagrams for algorithms such as Suffix Trees, Dijkstra's, PageRank, A* Search, Stack, Queue, Heap and more. It serves as a learning resource, industry case study, and academic reference.",
+    "images": [
+      "/images/amazon-algo-portfolio-home.png",
+      "/images/amazon-algo-portfolio-case.png"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/BPavan16/aps-portfolio",
+    "deploy-link": "https://bpavan16.github.io/aps-portfolio/",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "date": ["2025"],
+    "tag": "Frontend Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/yourusername/aps-portfolio/blob/main/README.md"
+  },
+  {
+    "title": "QuickEats – Modern Food Booking & Ordering Platform",
+    "short-description": "A responsive MERN stack platform for seamless food ordering, restaurant discovery, and admin management.",
+    "detailed-description": "QuickEats is a comprehensive full-stack web application designed to enhance the online food ordering experience. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it offers a user-friendly interface for customers to explore restaurants, browse menus, place orders, and manage profiles. The admin panel provides powerful tools for managing menu items, orders, and analytics. Features include advanced search and filters, secure authentication, real-time order tracking, and a modern, responsive UI.",
+    "images": [
+      "https://github.com/bPavan16/QuickEats/raw/main/images/image_(3).png"
+    ],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/quickeats",
+    "deploy-link": "",
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js"],
+    "date": ["Dec-2024"],
+    "tag": "Full-Stack Web Development",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/quickeats/blob/main/README.md"
+  },
+  {
+    "title": "Code-to-Code Translation from Java to Python using Transformers T5-small",
+    "short-description": "A transformer-based approach for translating Java code to Python using a custom-trained T5-small model.",
+    "detailed-description": "This project demonstrates a method of translating Java code into Python using the T5-small transformer model, trained on a custom-generated dataset. The approach avoids language-specific shortcuts, ensuring algorithmically pure and fully translatable code. The dataset was generated by translating sample text into pseudocode, then implementing it in both Java and Python. The T5-small model was fine-tuned on this dataset to learn generalized code translation patterns. Evaluation shows high accuracy in generating semantically equivalent and syntactically correct Python code from Java.",
+    "images": [],
+    "contributors": [],
+    "code-link": "https://github.com/bPavan16/CodeTranslator",
+    "deploy-link": "",
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "Hugging Face Transformers",
+      "T5-small",
+      "NLP",
+      "Machine Learning"
+    ],
+    "date": ["Dec-2024"],
+    "tag": "AI/ML",
+    "status": "Completed",
+    "readme-link": "https://github.com/bPavan16/CodeTranslator/blob/main/README.md"
+  },
+  {
+  "title": "Automatic Driving Assistance System (ADAS) using YOLO v11 for Traffic Sign Detection and Recognition",
+  "short-description": "A real-time computer vision system for detecting and recognizing traffic signs using YOLO v11, designed for ADAS and autonomous vehicles.",
+  "detailed-description": "This project develops a computer vision system capable of detecting and recognizing traffic signs in real-time from video or image inputs. Leveraging the YOLO v11 model, the system quickly and accurately identifies various traffic signs, drawing bounding boxes and classifying them into categories such as Stop, Yield, and Speed Limit. The solution is designed to assist autonomous vehicles and advanced driver-assistance systems (ADAS) in understanding and reacting to road signs, improving safety and navigation. The workflow includes dataset preparation, model training with data augmentation, and rigorous evaluation using metrics like mAP and F1-score.",
   "contributors": [
   ],
-  "code-link": "https://github.com/bPavan16/leethelper-chrome",
+  "code-link": "https://github.com/bPavan16/ADAS-YOLO11",
   "deploy-link": "",
   "technologies": [
-    "React",
-    "TypeScript",
-    "Vite",
-    "Tailwind CSS",
-    "Google Gemini API"
+    "YOLO v11",
+    "Python",
+    "TTS",
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "Deep Learning"
   ],
-  "date": ["Jan-Feb 2025"],
-  "tag": "Chrome Extension",
-  "status": "Completed",
-  "readme-link": "https://github.com/bPavan16/leethelper-chrome/blob/main/README.md"
-},
-{
-  "title": "ArithMentor – Interactive Math Practice Platform",
-  "short-description": "A web app to master multiplication tables, squares, cubes, and mental arithmetic through interactive practice.",
-  "detailed-description": "ArithMentor is an interactive web application designed to help users improve their mathematical skills through engaging exercises and practice sessions. It features interactive multiplication tables (1-100), a comprehensive reference for squares and cubes, and customizable mental arithmetic challenges. The platform is mobile-responsive, visually clean, and offers timed challenges to sharpen speed and accuracy. Built for learners of all ages, ArithMentor makes math practice accessible and enjoyable.",
-  "images": [
-    "/images/arithmentor-home.png",
-    "/images/arithmentor-tables.png",
-    "/images/arithmentor-practice.png"
-  ],
-  "contributors": [
-    
-  ],
-  "code-link": "https://github.com/bPavan16/arithmentor",
-  "deploy-link": "https://bpavan16.github.io/arithmentor/",
-  "technologies": [
-    "HTML5",
-    "CSS3",
-    "JavaScript" ],
-  "date": ["2024"],
-  "tag": "Frontend Web Development",
-  "status": "Completed",
-  "readme-link": "https://github.com/bPavan16/arithmentor/blob/main/README.md"
+  "date": ["2025"],
+  "tag": "AI/ML",
+  "status": "In Progress",
+  "readme-link": "https://github.com/bPavan16/ADAS-YOLO11/blob/main/README.md"
 }
 ]

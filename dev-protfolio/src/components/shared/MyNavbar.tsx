@@ -68,14 +68,7 @@ export function MyNavbar({ children }: { children: React.ReactNode }) {
             name: "Projects",
             link: "#projects",
         },
-        {
-            name: "Skills",
-            link: "#skills",
-        },
-        {
-            name: "Experience",
-            link: "#experience",
-        },
+      
 
     ];
 

@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
     domains: ["assets.aceternity.com", 
       "github.com",
       "raw.githubusercontent.com",
-      "opengraph.githubassets.com"
+      "opengraph.githubassets.com",
+      "private-user-images.githubusercontent.com"
     ],
   },
   /* config options here */

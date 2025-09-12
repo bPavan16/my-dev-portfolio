@@ -53,7 +53,8 @@ const ProjectsSection = () => {
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-950 dark:via-gray-900 dark:to-slate-950">
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+
+              <div className="absolute inset-0 z-1 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
@@ -87,10 +88,10 @@ const ProjectsSection = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-12 p-2 px-4 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700"
+          className="flex flex-col sm:flex-row z-10 justify-between items-center gap-4 mb-12 p-2 px-4 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700"
         >
           {/* Filter Tags */}
-          <div className="flex items-center gap-2 flex-wrap">
+          <div className="flex items-center gap-2 flex-wrap z-10">
             <Filter className="w-4 h-4 text-gray-500 dark:text-gray-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300 mr-2">Filter:</span>
             {uniqueTags.map((tag) => (
